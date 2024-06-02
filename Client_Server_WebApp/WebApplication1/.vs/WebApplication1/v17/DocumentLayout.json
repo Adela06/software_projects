@@ -1,0 +1,454 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication1\\service\\filesavecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\filesavecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication1\\service\\ifilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\ifilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication1\\service\\docfilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\docfilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication1\\service\\csvfilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\csvfilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\webformusers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\webformplants.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\webformadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\userservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\plantservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\iservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication1\\service\\xmlfilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\xmlfilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\plantservicefull.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\plantservicefull.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\userserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\userserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\userservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\userservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\webformadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication1\\service\\jsonfilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:service\\jsonfilesavestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\webformusers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C80DDD9-7F45-40C5-B471-86360E8EA5CD}|..\\WebApplication2\\WebApplication2.csproj|d:\\an3_sem2\\ps\\laborator\\proiect_final\\webapplication2\\webformplants.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:model\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:model\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:model\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3DF8B-D5B3-4E63-96D9-2C21E68D8420}|WebApplication1.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WebFormUsers.aspx",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormUsers.aspx",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\WebFormUsers.aspx",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormUsers.aspx",
+              "RelativeToolTip": "..\\WebApplication2\\WebFormUsers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-22T22:04:58.945Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "plantServiceFull.asmx.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\plantServiceFull.asmx.cs",
+              "RelativeDocumentMoniker": "service\\plantServiceFull.asmx.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\plantServiceFull.asmx.cs",
+              "RelativeToolTip": "service\\plantServiceFull.asmx.cs",
+              "ViewState": "AQIAAMIBAAAAAAAAAAAqwNsBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:36:04.031Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocFileSaveStrategy.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\DocFileSaveStrategy.cs",
+              "RelativeDocumentMoniker": "service\\DocFileSaveStrategy.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\DocFileSaveStrategy.cs",
+              "RelativeToolTip": "service\\DocFileSaveStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:42:29.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileSaveContext.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\FileSaveContext.cs",
+              "RelativeDocumentMoniker": "service\\FileSaveContext.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\FileSaveContext.cs",
+              "RelativeToolTip": "service\\FileSaveContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:43:37.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFileSaveStrategy.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\IFileSaveStrategy.cs",
+              "RelativeDocumentMoniker": "service\\IFileSaveStrategy.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\IFileSaveStrategy.cs",
+              "RelativeToolTip": "service\\IFileSaveStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:42:00.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CsvFileSaveStrategy.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\CsvFileSaveStrategy.cs",
+              "RelativeDocumentMoniker": "service\\CsvFileSaveStrategy.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\CsvFileSaveStrategy.cs",
+              "RelativeToolTip": "service\\CsvFileSaveStrategy.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:40:00.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebFormUsers.aspx.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormUsers.aspx.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\WebFormUsers.aspx.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormUsers.aspx.cs",
+              "RelativeToolTip": "..\\WebApplication2\\WebFormUsers.aspx.cs",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAAACgBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T23:07:14.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebFormPlants.aspx.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormPlants.aspx.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\WebFormPlants.aspx.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormPlants.aspx.cs",
+              "RelativeToolTip": "..\\WebApplication2\\WebFormPlants.aspx.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAAAFEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:10:46.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebFormAdmin.aspx.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormAdmin.aspx.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\WebFormAdmin.aspx.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormAdmin.aspx.cs",
+              "RelativeToolTip": "..\\WebApplication2\\WebFormAdmin.aspx.cs",
+              "ViewState": "AQIAADsBAAAAAAAAAAAAAAABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T21:29:56.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserServiceFactory.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\UserServiceFactory.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\UserServiceFactory.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\UserServiceFactory.cs",
+              "RelativeToolTip": "..\\WebApplication2\\UserServiceFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:54:26.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlantServiceFactory.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\PlantServiceFactory.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\PlantServiceFactory.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\PlantServiceFactory.cs",
+              "RelativeToolTip": "..\\WebApplication2\\PlantServiceFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:53:32.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IServiceFactory.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\IServiceFactory.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\IServiceFactory.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\IServiceFactory.cs",
+              "RelativeToolTip": "..\\WebApplication2\\IServiceFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:52:51.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "XmlFileSaveStrategy.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\XmlFileSaveStrategy.cs",
+              "RelativeDocumentMoniker": "service\\XmlFileSaveStrategy.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\XmlFileSaveStrategy.cs",
+              "RelativeToolTip": "service\\XmlFileSaveStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:41:24.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\IUserService.cs",
+              "RelativeDocumentMoniker": "service\\IUserService.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\IUserService.cs",
+              "RelativeToolTip": "service\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:18:26.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserServiceProxy.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\UserServiceProxy.cs",
+              "RelativeDocumentMoniker": "service\\UserServiceProxy.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\UserServiceProxy.cs",
+              "RelativeToolTip": "service\\UserServiceProxy.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:18:57.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "userService.asmx.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\userService.asmx.cs",
+              "RelativeDocumentMoniker": "service\\userService.asmx.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\userService.asmx.cs",
+              "RelativeToolTip": "service\\userService.asmx.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAqwJ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:03:45.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WebFormAdmin.aspx",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormAdmin.aspx",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\WebFormAdmin.aspx",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormAdmin.aspx",
+              "RelativeToolTip": "..\\WebApplication2\\WebFormAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-29T17:48:22.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\Login.aspx.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\Login.aspx.cs",
+              "RelativeToolTip": "..\\WebApplication2\\Login.aspx.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T21:16:14.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\Login.aspx",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\Login.aspx",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\Login.aspx",
+              "RelativeToolTip": "..\\WebApplication2\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-22T21:35:27.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JsonFileSaveStrategy.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\JsonFileSaveStrategy.cs",
+              "RelativeDocumentMoniker": "service\\JsonFileSaveStrategy.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\service\\JsonFileSaveStrategy.cs",
+              "RelativeToolTip": "service\\JsonFileSaveStrategy.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:40:44.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WebFormPlants.aspx",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormPlants.aspx",
+              "RelativeDocumentMoniker": "..\\WebApplication2\\WebFormPlants.aspx",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication2\\WebFormPlants.aspx",
+              "RelativeToolTip": "..\\WebApplication2\\WebFormPlants.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-22T13:26:58.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\repository\\Repository.cs",
+              "RelativeDocumentMoniker": "model\\repository\\Repository.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\repository\\Repository.cs",
+              "RelativeToolTip": "model\\repository\\Repository.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAADwv5AAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:47:23.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\Plant.cs",
+              "RelativeDocumentMoniker": "model\\Plant.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\Plant.cs",
+              "RelativeToolTip": "model\\Plant.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T22:35:22.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "model\\repository\\UserRepository.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\repository\\UserRepository.cs",
+              "RelativeToolTip": "model\\repository\\UserRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:49:11.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\User.cs",
+              "RelativeDocumentMoniker": "model\\User.cs",
+              "ToolTip": "D:\\AN3_SEM2\\PS\\Laborator\\Proiect_final\\WebApplication1\\model\\User.cs",
+              "RelativeToolTip": "model\\User.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAmwFcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:39:51.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 122,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

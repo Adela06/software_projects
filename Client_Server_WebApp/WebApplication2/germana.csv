@@ -1,0 +1,30 @@
+﻿Log;Anmeldung
+Enter;Geben Sie den Namen der Pflanze ein:
+Filter;Filtration
+Sort;Pflanzen sortieren nach:
+Type;Typ
+Species;Spezies
+English;Englisch
+Romanian;Rumänisch
+German;Deutsch
+Search;Suchen
+Select;Wählen Sie die Filterkriterien aus:
+Location;Standort
+Username;Benutzer
+Password;Passwort
+Login;Loginseite
+Create;Erstellen
+Delete;Entfernen
+Update;Aktualisiert
+Name;Name
+Carnivorous;Fleischfresser
+Statistics;Statistisch 
+Save;Speichern Sie die Pflanzenliste im Format:
+Status;Admin-Rolle
+Admin;Administrator
+Employee;Mitarbeiter
+Reset;Liste zurücksetzen
+Show ;zeige Statistiken
+FilterUsers;FilterBenutzer
+Hide;Pflanzenliste ausblenden
+Load;Anlagenliste laden

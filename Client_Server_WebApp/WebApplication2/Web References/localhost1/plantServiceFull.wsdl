@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlants">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPlantsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPlantsResult" type="tns:ArrayOfPlant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPlant">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Plant" nillable="true" type="tns:Plant" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Plant">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PlantName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Species" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PlantType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Carnivorous" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Location" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Image" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AddPlant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="plant" type="tns:Plant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddPlantResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="DeletePlant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePlantResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="UpdatePlant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="plant" type="tns:Plant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePlantResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveAsCSV">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveAsCSVResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveAsXML">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveAsXMLResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveAsJSON">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveAsJSONResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveAsDOC">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveAsDOCResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="TypesSort">
+        <s:complexType />
+      </s:element>
+      <s:element name="TypesSortResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TypesSortResult" type="tns:ArrayOfPlant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SpeciesSort">
+        <s:complexType />
+      </s:element>
+      <s:element name="SpeciesSortResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SpeciesSortResult" type="tns:ArrayOfPlant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Search">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="searchTerm" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SearchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SearchResult" type="tns:ArrayOfPlant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Filter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="selectedFilter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filterValue" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FilterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FilterResult" type="tns:ArrayOfPlant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ShowStatistics">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sender" />
+            <s:element minOccurs="0" maxOccurs="1" name="e" type="tns:EventArgs" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="EventArgs" />
+      <s:element name="ShowStatisticsResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPlantsByLocationStatistics">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPlantsByLocationStatisticsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPlantsByLocationStatisticsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCarnivorousStatistics">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCarnivorousStatisticsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCarnivorousStatisticsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPlantsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPlants" />
+  </wsdl:message>
+  <wsdl:message name="GetPlantsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPlantsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddPlantSoapIn">
+    <wsdl:part name="parameters" element="tns:AddPlant" />
+  </wsdl:message>
+  <wsdl:message name="AddPlantSoapOut">
+    <wsdl:part name="parameters" element="tns:AddPlantResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePlantSoapIn">
+    <wsdl:part name="parameters" element="tns:DeletePlant" />
+  </wsdl:message>
+  <wsdl:message name="DeletePlantSoapOut">
+    <wsdl:part name="parameters" element="tns:DeletePlantResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePlantSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatePlant" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePlantSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatePlantResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveAsCSVSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveAsCSV" />
+  </wsdl:message>
+  <wsdl:message name="SaveAsCSVSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveAsCSVResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveAsXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveAsXML" />
+  </wsdl:message>
+  <wsdl:message name="SaveAsXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveAsXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveAsJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveAsJSON" />
+  </wsdl:message>
+  <wsdl:message name="SaveAsJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveAsJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveAsDOCSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveAsDOC" />
+  </wsdl:message>
+  <wsdl:message name="SaveAsDOCSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveAsDOCResponse" />
+  </wsdl:message>
+  <wsdl:message name="TypesSortSoapIn">
+    <wsdl:part name="parameters" element="tns:TypesSort" />
+  </wsdl:message>
+  <wsdl:message name="TypesSortSoapOut">
+    <wsdl:part name="parameters" element="tns:TypesSortResponse" />
+  </wsdl:message>
+  <wsdl:message name="SpeciesSortSoapIn">
+    <wsdl:part name="parameters" element="tns:SpeciesSort" />
+  </wsdl:message>
+  <wsdl:message name="SpeciesSortSoapOut">
+    <wsdl:part name="parameters" element="tns:SpeciesSortResponse" />
+  </wsdl:message>
+  <wsdl:message name="SearchSoapIn">
+    <wsdl:part name="parameters" element="tns:Search" />
+  </wsdl:message>
+  <wsdl:message name="SearchSoapOut">
+    <wsdl:part name="parameters" element="tns:SearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="FilterSoapIn">
+    <wsdl:part name="parameters" element="tns:Filter" />
+  </wsdl:message>
+  <wsdl:message name="FilterSoapOut">
+    <wsdl:part name="parameters" element="tns:FilterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ShowStatisticsSoapIn">
+    <wsdl:part name="parameters" element="tns:ShowStatistics" />
+  </wsdl:message>
+  <wsdl:message name="ShowStatisticsSoapOut">
+    <wsdl:part name="parameters" element="tns:ShowStatisticsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPlantsByLocationStatisticsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPlantsByLocationStatistics" />
+  </wsdl:message>
+  <wsdl:message name="GetPlantsByLocationStatisticsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPlantsByLocationStatisticsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCarnivorousStatisticsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCarnivorousStatistics" />
+  </wsdl:message>
+  <wsdl:message name="GetCarnivorousStatisticsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCarnivorousStatisticsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="plantServiceFullSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlants">
+      <wsdl:input message="tns:GetPlantsSoapIn" />
+      <wsdl:output message="tns:GetPlantsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPlant">
+      <wsdl:input message="tns:AddPlantSoapIn" />
+      <wsdl:output message="tns:AddPlantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlant">
+      <wsdl:input message="tns:DeletePlantSoapIn" />
+      <wsdl:output message="tns:DeletePlantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePlant">
+      <wsdl:input message="tns:UpdatePlantSoapIn" />
+      <wsdl:output message="tns:UpdatePlantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsCSV">
+      <wsdl:input message="tns:SaveAsCSVSoapIn" />
+      <wsdl:output message="tns:SaveAsCSVSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsXML">
+      <wsdl:input message="tns:SaveAsXMLSoapIn" />
+      <wsdl:output message="tns:SaveAsXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsJSON">
+      <wsdl:input message="tns:SaveAsJSONSoapIn" />
+      <wsdl:output message="tns:SaveAsJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsDOC">
+      <wsdl:input message="tns:SaveAsDOCSoapIn" />
+      <wsdl:output message="tns:SaveAsDOCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TypesSort">
+      <wsdl:input message="tns:TypesSortSoapIn" />
+      <wsdl:output message="tns:TypesSortSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SpeciesSort">
+      <wsdl:input message="tns:SpeciesSortSoapIn" />
+      <wsdl:output message="tns:SpeciesSortSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <wsdl:input message="tns:SearchSoapIn" />
+      <wsdl:output message="tns:SearchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Filter">
+      <wsdl:input message="tns:FilterSoapIn" />
+      <wsdl:output message="tns:FilterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowStatistics">
+      <wsdl:input message="tns:ShowStatisticsSoapIn" />
+      <wsdl:output message="tns:ShowStatisticsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlantsByLocationStatistics">
+      <wsdl:input message="tns:GetPlantsByLocationStatisticsSoapIn" />
+      <wsdl:output message="tns:GetPlantsByLocationStatisticsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCarnivorousStatistics">
+      <wsdl:input message="tns:GetCarnivorousStatisticsSoapIn" />
+      <wsdl:output message="tns:GetCarnivorousStatisticsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="plantServiceFullSoap" type="tns:plantServiceFullSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlants">
+      <soap:operation soapAction="http://tempuri.org/GetPlants" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPlant">
+      <soap:operation soapAction="http://tempuri.org/AddPlant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlant">
+      <soap:operation soapAction="http://tempuri.org/DeletePlant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePlant">
+      <soap:operation soapAction="http://tempuri.org/UpdatePlant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsCSV">
+      <soap:operation soapAction="http://tempuri.org/SaveAsCSV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsXML">
+      <soap:operation soapAction="http://tempuri.org/SaveAsXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsJSON">
+      <soap:operation soapAction="http://tempuri.org/SaveAsJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsDOC">
+      <soap:operation soapAction="http://tempuri.org/SaveAsDOC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TypesSort">
+      <soap:operation soapAction="http://tempuri.org/TypesSort" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SpeciesSort">
+      <soap:operation soapAction="http://tempuri.org/SpeciesSort" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap:operation soapAction="http://tempuri.org/Search" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Filter">
+      <soap:operation soapAction="http://tempuri.org/Filter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowStatistics">
+      <soap:operation soapAction="http://tempuri.org/ShowStatistics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlantsByLocationStatistics">
+      <soap:operation soapAction="http://tempuri.org/GetPlantsByLocationStatistics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCarnivorousStatistics">
+      <soap:operation soapAction="http://tempuri.org/GetCarnivorousStatistics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="plantServiceFullSoap12" type="tns:plantServiceFullSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlants">
+      <soap12:operation soapAction="http://tempuri.org/GetPlants" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPlant">
+      <soap12:operation soapAction="http://tempuri.org/AddPlant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlant">
+      <soap12:operation soapAction="http://tempuri.org/DeletePlant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePlant">
+      <soap12:operation soapAction="http://tempuri.org/UpdatePlant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsCSV">
+      <soap12:operation soapAction="http://tempuri.org/SaveAsCSV" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsXML">
+      <soap12:operation soapAction="http://tempuri.org/SaveAsXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsJSON">
+      <soap12:operation soapAction="http://tempuri.org/SaveAsJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAsDOC">
+      <soap12:operation soapAction="http://tempuri.org/SaveAsDOC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TypesSort">
+      <soap12:operation soapAction="http://tempuri.org/TypesSort" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SpeciesSort">
+      <soap12:operation soapAction="http://tempuri.org/SpeciesSort" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Search">
+      <soap12:operation soapAction="http://tempuri.org/Search" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Filter">
+      <soap12:operation soapAction="http://tempuri.org/Filter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowStatistics">
+      <soap12:operation soapAction="http://tempuri.org/ShowStatistics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlantsByLocationStatistics">
+      <soap12:operation soapAction="http://tempuri.org/GetPlantsByLocationStatistics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCarnivorousStatistics">
+      <soap12:operation soapAction="http://tempuri.org/GetCarnivorousStatistics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="plantServiceFull">
+    <wsdl:port name="plantServiceFullSoap" binding="tns:plantServiceFullSoap">
+      <soap:address location="https://localhost:44376/service/plantServiceFull.asmx" />
+    </wsdl:port>
+    <wsdl:port name="plantServiceFullSoap12" binding="tns:plantServiceFullSoap12">
+      <soap12:address location="https://localhost:44376/service/plantServiceFull.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,30 @@
+﻿Log;Autentificare
+Enter;Introdu numele plantei:
+Filter;Filtrare
+Sort;Sortare plante dupa:
+Type;Tip
+Species;Specie
+English;Engleza
+Romanian;Romana
+German;Germana
+Search;Cautare
+Select;Selecteaza criteriul de filtrare:
+Location;Locatie
+Username;Utilizator
+Password;Parola
+Login;Pagina de autentificare
+Create;Creeaza
+Delete;Sterge
+Update;Actualizeaza
+Name;Nume
+Carnivorous;Carnivora
+Statistics;Statistici
+Save;Salveaza lista de plante in format:
+Status;Rol de admin
+Admin;Administrator
+Employee;Angajat
+Reset;Resetare lista
+Show ;Arata statistici
+FiltrareUtilizatori;FilterUsers
+Ascunde;Hide plant list
+Incarca;Load plant list
