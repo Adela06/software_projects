@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="OnlineGym.Views.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="../../Assets/Lib/css/bootstrap.min.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <ul class="nav justify-content-center">
+         <li class="nav-item">
+            <a class="nav-link" href="/Views/Receptionist/Members.aspx">Members</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Membership.aspx">Memberships</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="Login.aspx" onclick="RemoveTokenFromLocalStorage()">Logout</a>
+        </li>
+    </ul>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="Mybody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

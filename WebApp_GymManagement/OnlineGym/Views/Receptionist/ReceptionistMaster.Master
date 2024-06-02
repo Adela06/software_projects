@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ReceptionistMaster.master.cs" Inherits="OnlineGym.Views.Receptionist.ReceptionistMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="../../Assets/Lib/css/bootstrap.min.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href="Members.aspx">Members</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="Payments.aspx">Payments</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/Views/Admin/Login.aspx">Logout</a>
+  </li>
+</ul>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="Mybody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
